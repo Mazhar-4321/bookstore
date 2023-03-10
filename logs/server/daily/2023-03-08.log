@@ -1,0 +1,52 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:34:18.535Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:34:18.578Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:38:19.471Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:38:19.502Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:38:48.395Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:38:48.478Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:42:08.765Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:42:08.808Z"}
+error: 
+    status - 500 
+    message - TypeError: _book.default.baseModelName is not a function
+    at _callee$ (D:\ExpressProjects\bookstore\bookstore\src\services\/book.service.js:7:25)
+    at tryCatch (D:\ExpressProjects\bookstore\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\ExpressProjects\bookstore\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\ExpressProjects\bookstore\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\ExpressProjects\bookstore\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\ExpressProjects\bookstore\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-08T09:42:17.910Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:42:35.031Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:42:35.061Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:44:08.416Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:44:08.472Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:44:59.655Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:44:59.705Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:46:15.965Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:46:16.018Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:46:32.631Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:46:32.660Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:47:17.834Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:47:17.879Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:47:36.157Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:47:36.187Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:53:15.395Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:53:15.431Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:53:24.459Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:53:24.503Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:53:55.388Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:53:55.430Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:55:55.140Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:55:55.179Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:57:36.051Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:57:36.114Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:57:51.946Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:57:51.986Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2023-03-08T09:58:29.967Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T09:58:30.005Z"}
+info: Server started at http://localhost:7001/api/v1/ {"timestamp":"2023-03-08T10:03:23.781Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T10:03:23.842Z"}

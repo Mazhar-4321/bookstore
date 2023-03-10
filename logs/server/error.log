@@ -1,0 +1,14 @@
+error: 
+    status - 500 
+    message - TypeError: _book.default.baseModelName is not a function
+    at _callee$ (D:\ExpressProjects\bookstore\bookstore\src\services\/book.service.js:7:25)
+    at tryCatch (D:\ExpressProjects\bookstore\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\ExpressProjects\bookstore\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\ExpressProjects\bookstore\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\ExpressProjects\bookstore\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\ExpressProjects\bookstore\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-08T09:42:17.910Z"}
