@@ -6,4 +6,6 @@ const router = express.Router();
 
 router.put('/:productID', CartController.addBookToCart);
 
+router.delete('/:productID', CartController.removeBookFromCart);
+
 export default router;
