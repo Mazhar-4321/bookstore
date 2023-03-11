@@ -4,6 +4,6 @@ import { userAuth } from '../middlewares/auth.middleware'
 
 const router = express.Router();
 
-router.put('/:productID', CartController.addBookToCart1);
+router.put('/:productID', CartController.addBookToCart);
 
 export default router;
