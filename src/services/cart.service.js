@@ -21,19 +21,25 @@ export const addBookToCart = async (req) => {
 export const removeBookFromCart=async(req)=>{
     var userID=req.body.userID
     var productID=req.params.productID
-    var cart=Cart.findOne({userID:userID})
+    var cart=await Cart.findOne({userID:userID})
     if(cart!==null){
         var bookPrice=0
-        var bookQuantity=0
-      var bookArray=cart.books.filter(book=>{ if(book._id===productID){bookPrice=book.price;bookQuantity=book.quantity} return book._id!==productID})
+      var bookArray=cart.books.filter(book=>{ 
+        if(book._id==productID){
+            bookPrice=book.price;
+            book.quantity=book.quantity-1
+        } 
+        return book.quantity>0
+    })
       
       var filter={userID:userID}
-      var update={books:bookArray,cartTotal:cart.cartTotal-bookPrice*bookQuantity}
+      var update={books:bookArray,cartTotal:cart.cartTotal-bookPrice}
       await Cart.findOneAndUpdate(filter,update)
     }else{
         throw new Error("Cart Doesn't Exist")
     }
 }
+
 const updateCart = async (cart, userID, book, productID) => {
     var totalPrice = 0
     let index = -1
