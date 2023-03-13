@@ -8,4 +8,6 @@ router.put('insert/:productID', CartController.addBookToCart);
 
 router.put('remove/:productID', CartController.removeBookFromCart);
 
+router.put('order',CartController.placeOrder);
+
 export default router;
