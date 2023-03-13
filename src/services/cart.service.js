@@ -40,6 +40,10 @@ export const removeBookFromCart=async(req)=>{
     }
 }
 
+export const placeOrder=async(req)=>{
+    
+}
+
 const updateCart = async (cart, userID, book, productID) => {
     var totalPrice = 0
     let index = -1
